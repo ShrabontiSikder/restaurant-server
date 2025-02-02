@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\WALTON>e:
+
+E:\>cd Project
+
+E:\Project>mkdir restaurant-server
+
+E:\Project>cd restaurant-server
+
+E:\Project\restaurant-server>code .
+
+E:\Project\restaurant-server>npm init -y
+Wrote to E:\Project\restaurant-server\package.json:
+
+{
+  "name": "restaurant-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+E:\Project\restaurant-server>npm i express dotenv cors mongodb nodemon
+
+added 113 packages, and audited 114 packages in 11s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+E:\Project\restaurant-server>
